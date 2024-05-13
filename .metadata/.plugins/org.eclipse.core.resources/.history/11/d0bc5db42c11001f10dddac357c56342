@@ -1,0 +1,14 @@
+package desafio_dio_banco;
+
+public class ContaCorrente extends Conta {
+
+	@Override
+	public void imprimirExtrato() {
+		System.out.printf("=== Extrato Conta Corrente");
+		System.out.printf(String.format("Agencia: %d", super.agencia));
+		System.out.printf(String.format("Numero: %d", super.numero));
+		System.out.printf(String.format("Saldo: %.2f", super.saldo));
+		
+	}
+	
+}

@@ -1,0 +1,22 @@
+package desafio_dio_banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente heitor = new Cliente();
+		heitor.setNome("Heitor");
+		
+		Conta cc = new ContaCorrente(heitor);
+		Conta cp = new ContaPoupanca(heitor);
+		
+		cc.depositar(100);
+		cc.trasferir(100, cp);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		
+		
+
+	}
+
+}

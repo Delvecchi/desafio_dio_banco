@@ -1,0 +1,12 @@
+package desafio_dio_banco;
+
+public class ContaPoupanca extends Conta {
+
+	@Override
+	public void imprimirExtrato() {
+		System.out.printf("=== Estrato Conta Poupança");
+		super.imprimirInfoComuns();
+		
+	}
+	
+}

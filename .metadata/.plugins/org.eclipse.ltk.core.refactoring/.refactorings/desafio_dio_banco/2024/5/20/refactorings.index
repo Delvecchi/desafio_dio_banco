@@ -1,0 +1,4 @@
+1715605561195	Rename compilation unit 'ContaPouponca.java'
+1715606183253	Delete element
+1715606751698	Extract method 'imprimirInfoComuns'
+1715608061455	Encapsulate field 'contas'
